@@ -3,6 +3,7 @@ import FragmentsDemo from "./examples/FragmentsDemo";
 import ModulesDemo from "./examples/ModulesDemo";
 import ContainmentCompositionDemo from "./examples/ContainmentCompositionDemo";
 import Header from "./components/header";
+import "./App.css";
 
 /**
  * components-demo
@@ -20,11 +21,11 @@ import Header from "./components/header";
 function App() {
   return (
     <>
-      <Header
+      <Header className=""
         title="JSX, Komponenten, Module"
         subtitle="Diese App ist als Lern-/Erklärprojekt gedacht. Lest die Kommentare im Code und schaut euch die Beispiele in <code>src/examples</code> an."
       />
-      <div className="grid">
+      <div className="grid " >
         <Section
           title="Fragmente (Fragments)"
           subtitle="Mehrere Elemente zurückgeben – ohne unnötige Wrapper im DOM"
